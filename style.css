@@ -1,0 +1,79 @@
+.info article,.contact {
+    font-size: large;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+body {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 20px 20px;
+    background-color: #31353d;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #31353d;
+    background-color: aliceblue;
+    margin: 0;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    background-color: aliceblue;
+}
+
+header nav ul li {
+    margin: 0 20px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.journey {
+    background-image: url("https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?cs=srgb&dl=pexels-dana-tentis-370799.jpg&fm=jpg");
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: 3.5%;
+}
+
+.journey h2 {
+    padding: 40px;
+    text-align: right;
+}
+
+.info article {
+    color: #445877;
+    border-left: 6px solid #445877;
+}
+
+.contact ul {
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 5px;
+    background-color: aliceblue;
+    border-left: 6px solid #445877;
+
+}
+
+.contact ul a {
+    border-bottom: 2px solid #445877;
+    padding: 2px;
+
+}
